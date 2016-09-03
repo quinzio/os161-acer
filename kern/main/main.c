@@ -107,7 +107,7 @@ boot(void)
 	kprintf("\n");
 
 	int a, *b; // fix me
-	b = 0;
+	b = 0; // another fix
 	a = *b;
 	b = (int *)a;
 	/* Early initialization. */
