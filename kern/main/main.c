@@ -107,6 +107,7 @@ boot(void)
 	kprintf("\n");
 
 	int a, *b; // don't fix me
+	int a, *b; // fix me
 	b = 0;
 	a = *b;
 	b = (int *)a;
