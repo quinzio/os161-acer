@@ -1,0 +1,14 @@
+In ~/os161/kern/conf lanciare:
+./config {nome del kernel}
+esempio:
+./config DUMBVM
+
+In ~/os161/kern/compile/{nome del kernel}
+lanciare:
+bmake depend
+bmake
+bmake install
+
+In ~/os161/root
+lanciare il simulare MIPS
+sys161 {nome del kernel}
