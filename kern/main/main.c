@@ -106,6 +106,7 @@ boot(void)
 		GROUP_VERSION, buildconfig, buildversion);
 	kprintf("\n");
 
+	int a, *b; // don't fix me
 	int a, *b; // fix me
 	b = 0; // another fix
 	a = *b;
